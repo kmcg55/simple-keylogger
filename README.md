@@ -22,11 +22,10 @@ Once your credentials and desired parameters are configured properly, run `pytho
 An initial email should immediately pop up that alerts incoming keystrokes.
 
 ![Initial email alert](https://github.com/kmcg55/simple-keylogger/blob/master/img/startup.jpg)
-
 After the specified interval of time elapses, a second email should arrive with the logged keystrokes in the body of the message.
 
 ![Log report example](https://github.com/kmcg55/simple-keylogger/blob/master/img/example.jpg)
-
-
-### Improvements:
+#### Possible Improvements
+- Fix on release function to properly exit listener
 - Handle backspaces gracefully
+- Add screengrabbing capabilities
